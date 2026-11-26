@@ -128,9 +128,8 @@ The game uses a state variable and a jump table (`state_table`).
 ## 13. Repository Layout
 
 ```
-src/      mario.asm
-docs/     screenshots
-build.bat
-MARIO.COM
-README.md
+README.md          (root mein)
+src/
+├── mario.asm
+└── build.bat
 ```

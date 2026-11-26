@@ -7,7 +7,7 @@ A 16-bit side-scrolling platform game written in x86 Assembly (NASM), VGA mode 1
 
 | Group | Section | Instructor |
 |---|---|---|
-| Group #5 | SE 3rd Semester, Section __ | __________ |
+| Group #5 | SE 3rd Semester, Section B | Muhammad Talha dar |
 
 | Name | Roll Number | Modules developed |
 |---|---|---|

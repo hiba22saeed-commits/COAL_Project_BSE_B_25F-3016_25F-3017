@@ -17,7 +17,7 @@
 ; GROUP #5
         cpu     186
         bits    16
-        org     100h
+        org     0x0100
         JUMPS
         section .text
         jmp near     start
@@ -322,7 +322,7 @@ SetPalette:
         mov     bx, PAL_FIRST
         mov     cx, PAL_COUNT
         mov     dx, palette_tab
-        int     10h
+        int     10h  ;interrupts
         EPILOGE 0
 
 ; ---------------------------------------------------------------------

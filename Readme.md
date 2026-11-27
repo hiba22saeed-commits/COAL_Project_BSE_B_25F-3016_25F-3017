@@ -12,7 +12,7 @@ A 16-bit side-scrolling platform game written in x86 Assembly (NASM), VGA mode 1
 | Name | Roll Number | Modules developed |
 |---|---|---|
 | Hiba | 25F-3016 | Modules 1, 3, 4, 6, 7, 8, 9, 10 and HUD / text drawing of Module 13 |
-| Qaima | 25F-3017 | Modules 2, 5, 11, 12, 14, 15 and scoring / lives logic of Module 13 |
+| Qaima Maryam | 25F-3017 | Modules 2, 5, 11, 12, 14, 15 and scoring / lives logic of Module 13 |
 
 Repository: https://github.com/hiba22saeed-commits/COAL_Project_BSE_B_25F-3016_25F-3017.git
 

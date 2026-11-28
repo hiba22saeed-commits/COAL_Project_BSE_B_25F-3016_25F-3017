@@ -480,7 +480,7 @@ DecodeGraphics:
         inc     di
         dec     dx
         jnz     .find
-        xor     al, al                  ; unknown letter = transparent
+        xor     al, al                  ; unknown letter = transparent, set al to 0
         jmp near     .store
 .found: mov     al, [di+GFX_CHAR_COUNT]
 .store: mov     [si], al

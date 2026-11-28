@@ -513,7 +513,7 @@ DrawGlyph:
         jmp near     near .next
         cmp     word [bp+4], 1
         jne     .big
-        cmp     cx, SCREEN_W
+        cmp     cx, SCREEN_W   ;compare cx with constant
         jb      $+5
         jmp near     near .next
         cmp     bx, SCREEN_H

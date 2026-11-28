@@ -4148,6 +4148,6 @@ key_event       resb 128
 level_orig      resb MAP_SIZE
 level_work      resb MAP_SIZE
 enemies         resb ENEMY_MAX*E_SIZE
-items           resb ITEM_MAX*E_SIZE
+items           resb ITEM_MAX*E_SIZE  ;assembly diractive to save space i memory
 fx_table        resb FX_MAX*FX_SIZE
 font_buf        resb 1024
